@@ -1,0 +1,13 @@
+[workspace]
+channels = ["conda-forge"]
+name = "tg-ws-proxy"
+platforms = ["win-64", "linux-64"]
+version = "1.7.0"
+
+[tasks]
+setup = "pip install ."
+headless = "python headless.py"
+
+[dependencies]
+python = ">=3.11,<3.12"
+pip = ">=26.1.1,<27"

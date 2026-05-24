@@ -25,3 +25,7 @@ Desktop.ini
 .DS_Store
 
 /icon.icns
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
